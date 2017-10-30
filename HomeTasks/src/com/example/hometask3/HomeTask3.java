@@ -14,7 +14,7 @@ public class HomeTask3 {
         }
     }
 
-    public static boolean isUpper(char[] a) {
+    private static boolean isUpper(char[] a) {
         for (int i = 0; i < a.length; i++) {
             if (Character.isUpperCase(a[i])) {
                 return true;
@@ -23,7 +23,7 @@ public class HomeTask3 {
         return false;
     }
 
-    public static boolean isLower(char[] a) {
+    private static boolean isLower(char[] a) {
         for (int i = 0; i < a.length; i++) {
             if (Character.isLowerCase(a[i])) {
                 return true;
@@ -32,7 +32,7 @@ public class HomeTask3 {
         return false;
     }
 
-    public static boolean isNumber(char[] a) {
+    private static boolean isNumber(char[] a) {
         for (int i = 0; i < a.length; i++) {
             if (Character.isDigit(a[i])) {
                 return true;

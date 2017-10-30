@@ -5,7 +5,7 @@ public class HomeTask2 {
     public static void main(String[] args) {
 
         byte[][] matrixA;
-        matrixA = new byte[10][10];
+        matrixA = new byte[5][5];
 
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
